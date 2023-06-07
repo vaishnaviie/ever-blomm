@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  /* border: 2px solid red; */
+  /* background-image: url("bg.jpeg"); */
+  /* position: relative; */
+}
+
+.products_container {
+  display: flex;
+  gap: 20px;
+  /* background-image: url("bg.jpeg"); */
+  /* background-color: yellow; */
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+  padding: 0rem 1rem;
+}
+
+/* .sidebar_container {
+  background-color: red;
+  width: 300px;
+
+  top: 6rem;
+  overflow-y: scroll;
+} */

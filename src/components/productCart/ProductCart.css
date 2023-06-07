@@ -1,0 +1,94 @@
+.product {
+  padding: 1rem;
+  border: 2px solid rgb(81, 171, 207);
+  border-radius: 1rem;
+  /* background-image: url("linings.png"); */
+  background-image: url("download (1).jpeg");
+  background-position: center;
+  background-size: cover;
+  /* background-image: url("bg.jpeg"); */
+  height: 450px;
+  width: 285px;
+  /* font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold; */
+}
+
+.product_cart_img {
+  border-radius: 2rem;
+  border: 3px solid white;
+}
+
+.gray {
+  color: gray;
+  font-size: 1.3rem;
+}
+
+.colored {
+  color: red;
+  font-size: 1.4rem;
+}
+
+.btn {
+  background-color: rgb(247, 201, 240);
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 2rem;
+  width: 7rem;
+  font-family: "Open Sans";
+  font-weight: 900;
+}
+
+.btn:hover {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #7bdff2 1px 3px,
+    #b2f7ef 3px 5px,
+    #eff7f6 5px 7px,
+    #f7d6e0 7px 9px,
+    #f2b5d4 9px 11px
+  );
+  border: 0.5px solid pink;
+}
+.lala {
+  /* font-family: "Cookie", cursive; */
+  /* font-family: "Sacramento", cursive; */
+  /* font-family: "Yellowtail", cursive; */
+  /* font-family: "Mr Dafoe", cursive; */
+  /* ------------- */
+  /* font-family: "Damion", cursive; */
+  /* font-family: "Codystar", cursive; */
+  /* font-family: "Lovers Quarrel", cursive; */
+  /* font-family: "Monoton", cursive; */
+  /* font-family: "Mr Dafoe", cursive; */
+  /* font-family: "Mr De Haviland", cursive; */
+  /* font-family: "Norican", cursive; */
+  /* font-family: "Rubik 80s Fade", cursive; */
+  /* font-family: "Ruthie", cursive; */
+  /* -------------- */
+  /* font-family: "Open Sans", sans-serif; */
+  /* font-family: "Open Sans", sans-serif; */
+
+  /* font-family: "Alex Brush", cursive; */
+  /* font-family: "Allura", cursive; */
+
+  /* font-family: "Cookie", cursive; */
+  /* font-family: "Corinthia", cursive; */
+
+  /* font-family: "Parisienne", cursive; */
+  /* font-family: "Qwitcher Grypen", cursive; */
+
+  /* font-family: "Sacramento", cursive; */
+  /* font-family: "WindSong", cursive; */
+  /* font-family: "Yellowtail", cursive; */
+
+  /* ------------------------------ */
+
+  /* font-family: "Pinyon Script", cursive; */
+  /* font-family: "MonteCarlo", cursive; */
+  /* font-family: "Monsieur La Doulaise", cursive; */
+  /* font-family: "Italianno", cursive; */
+  /* font-family: "Herr Von Muellerhoff", cursive; */
+  /* font-family: "Aguafina Script", cursive; */
+}

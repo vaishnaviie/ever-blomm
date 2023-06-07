@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Alex+Brush&family=Allura&family=Codystar:wght@300;400&family=Cookie&family=Corinthia:wght@400;700&family=Damion&family=Herr+Von+Muellerhoff&family=Italianno&family=Lovers+Quarrel&family=Monoton&family=Monsieur+La+Doulaise&family=MonteCarlo&family=Mr+Dafoe&family=Mr+De+Haviland&family=Norican&family=Open+Sans:ital,wght@1,300&family=Parisienne&family=Pinyon+Script&family=Qwitcher+Grypen:wght@400;700&family=Rubik+80s+Fade&family=Ruthie&family=Sacramento&family=Tangerine:wght@400;700&family=WindSong:wght@400;500&family=Yellowtail&display=swap");
+
+* {
+  box-sizing: border-box;
+  /* font-size: 14px; */
+}
+
+.navbar_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  /* background-color: rgb(218, 189, 215); */
+  background-color: rgb(218, 189, 215);
+  position: sticky;
+  top: 0;
+  z-index: 69;
+}
+
+.logo {
+  font-family: "Tangerine", cursive;
+  font-size: 4rem;
+  text-decoration: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding: 0.5rem 2rem;
+
+  /* text-decoration: 1px underline purple; */
+}
+
+.logo_div {
+  /* height: 5rem;
+  width: 15rem; */
+  /* border: 2px solid red; */
+}
+
+.search_input {
+  height: 2.5rem;
+  width: 30rem;
+  border: 2px solid rgb(236, 184, 236);
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem 0rem;
+  border-radius: 2rem;
+  font-size: 18px;
+  color: purple;
+  outline: none;
+  padding-left: 1rem;
+}
+
+.text_deco {
+  text-decoration: none;
+  color: white;
+}
+
+.nav_right {
+  /* margin: 1.5rem 0rem;
+  font-size: 1.5rem;
+  padding-right: 3rem; */
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-right: 2.5rem;
+}
+
+.nav_right_ele {
+  /* padding: 1rem; */
+}
+
+svg {
+  height: 1em;
+  width: 1em;
+}
+
+.user_name p {
+  font-size: 1.3rem;
+  /* font-size: 1.2rem;
+
+  padding: 0rem;
+  margin: 1rem;
+  padding-top: -1rem; */
+}
+.heart {
+  position: relative;
+}
+
+.heart_count {
+  width: 1.3rem;
+  height: 1.3rem;
+  background: purple;
+  border-radius: 50%;
+  /* text-align: center; */
+  font-size: 15px;
+  position: absolute;
+  top: -5px;
+  left: 16px;
+  /* right: 95px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

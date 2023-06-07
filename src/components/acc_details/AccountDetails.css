@@ -1,0 +1,87 @@
+.acc_container {
+  height: 89vh;
+  border: 2px solid purple;
+  background-image: url("../../../public/assets/bg.jpeg");
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+}
+.acc_sub_container {
+  min-height: 300px;
+  max-height: auto;
+  width: 500px;
+  border: 4px double purple;
+  margin: auto;
+  margin-top: 5rem;
+  background-color: white;
+  text-align: center;
+  border-radius: 1rem;
+  font-family: "Open Sans";
+  font-weight: 900;
+}
+
+.acc_details {
+  margin: 1rem 0rem;
+  line-height: 0.5rem;
+  border: 3.5px double purple;
+  border-radius: 5rem;
+  margin: auto;
+  margin-top: 1rem;
+  width: 60%;
+}
+
+.acc_addr_details {
+  margin: 1rem 0rem;
+  line-height: 0.5rem;
+  border: 3.5px double purple;
+  border-radius: 2rem;
+  margin: auto;
+  margin-top: 1rem;
+  width: 60%;
+}
+
+.btn_add_addr {
+  background-color: rgb(247, 201, 240);
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 2rem;
+  width: 20.5rem;
+  font-family: "Open Sans";
+  font-weight: 900;
+  margin: auto;
+  margin: 0.7rem 0rem;
+  text-align: center;
+}
+
+.btn_add_addr:hover {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #7bdff2 1px 3px,
+    #b2f7ef 3px 5px,
+    #eff7f6 5px 7px,
+    #f7d6e0 7px 9px,
+    #f2b5d4 9px 11px
+  );
+  border: 0.5px solid rgb(177, 154, 234);
+}
+
+.btn_logout {
+  font-family: "Open Sans";
+  font-weight: 900;
+  font-size: 1rem;
+  height: 2.5rem;
+  width: 5rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 100, 100);
+  color: white;
+  border: 2px solid black;
+  padding-bottom: 0.2rem;
+}
+
+.btn_logout:hover {
+  background-color: rgb(248, 43, 43);
+  color: white;
+  border: 3px solid black;
+}

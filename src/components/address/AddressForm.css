@@ -1,0 +1,45 @@
+.addr_container {
+  height: 89vh;
+  /* overflow: hidden; */
+  border: 2px solid purple;
+  background-image: url("../../../public/assets/bg.jpeg");
+  background-position: center;
+  background-size: contain;
+}
+
+.addr_sub_container {
+  height: 600px;
+  width: 500px;
+  border: 4px double purple;
+  margin: auto;
+  margin-top: 1.5rem;
+  background-color: white;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.addr_input {
+  height: 2.5rem;
+  width: 22rem;
+  border: 2px solid purple;
+  margin: 0.5rem 0rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: purple;
+  font-weight: bold;
+  padding-left: 0.7rem;
+}
+
+.btn_addr_form {
+  height: 2rem;
+  width: 7rem;
+  border: 2px solid purple;
+  margin: 0.5rem 0rem;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  text-align: center;
+  color: purple;
+  /* font-weight: bold; */
+  padding-left: 0.7rem;
+  background-color: antiquewhite;
+}

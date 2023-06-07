@@ -1,0 +1,55 @@
+.cart_container {
+  /* border: 2px solid blue; */
+}
+
+.carts {
+  display: flex;
+  justify-content: space-between;
+  /* border: 5px solid pink; */
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.checkout {
+  border: 2px solid rgb(17, 9, 241);
+  height: 60%;
+  width: 35%;
+  font-family: "Open Sans";
+  font-weight: 900;
+  line-height: 2rem;
+  border-radius: 1rem;
+  /* background-image: url(../../../public/assets/signin_bg.jpeg); */
+  background-image: url(../../../public/assets/linings.png);
+  background-position: center;
+  background-size: cover;
+  /* color: rgb(17, 9, 241); */
+  color: rgb(6, 0, 128);
+  font-size: 1.1rem;
+  margin: 1rem 0rem;
+}
+
+.btn_checkout {
+  background-color: rgb(146, 140, 237);
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 17px;
+  height: 2rem;
+  width: 15rem;
+  font-family: "Open Sans";
+  font-weight: 900;
+  margin-bottom: 1.3rem;
+  padding-bottom: 0.2rem;
+}
+
+.btn_checkout:hover {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #7bdff2 1px 3px,
+    #b2f7ef 3px 5px,
+    #eff7f6 5px 7px,
+    #f7d6e0 7px 9px,
+    #f2b5d4 9px 11px
+  );
+  border: 3px double rgb(146, 140, 237);
+}
