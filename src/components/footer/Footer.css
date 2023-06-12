@@ -1,0 +1,23 @@
+.footer_container {
+  border: 2px solid purple;
+  height: 4rem;
+  width: 100%;
+  background-color: rgb(218, 189, 215);
+  padding-top: 2.5vh;
+  position: sticky;
+  bottom: 0;
+}
+
+.footer_sub_container {
+  /* border: 2px solid red; */
+  text-align: center;
+  display: flex;
+  /* width: 50vw; */
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+svg {
+  font-size: 1.5rem;
+}
