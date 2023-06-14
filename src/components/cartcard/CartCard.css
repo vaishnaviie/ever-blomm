@@ -33,6 +33,7 @@
 .plus:hover {
   background-color: rgb(180, 224, 167);
   border: 3.5px double green;
+  cursor: pointer;
 }
 
 .minus {
@@ -48,6 +49,7 @@
 .minus:hover {
   background-color: rgb(250, 177, 177);
   border: 3.5px double red;
+  cursor: pointer;
 }
 
 .remove_cart {
@@ -72,6 +74,7 @@
     #f2b5d4 9px 11px
   );
   border: 0.5px solid rgb(177, 154, 234);
+  cursor: pointer;
 }
 
 .remove_wishList {
@@ -95,4 +98,5 @@
     #f2b5d4 9px 11px
   );
   border: 0.5px solid rgb(177, 154, 234);
+  cursor: pointer;
 }

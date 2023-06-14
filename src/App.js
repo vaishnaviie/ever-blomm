@@ -20,6 +20,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useEffect } from "react";
 import { useFlower } from "./context/FlowerContextProvider";
+import Footer from "./components/footer/Footer";
 
 // https://fkhadra.github.io/react-toastify/introduction
 // https://mui.com/material-ui/react-backdrop/
@@ -80,6 +81,7 @@ function App() {
         <Route path="/addr-form" element={<AddressForm />} />
         <Route path="/checkoutPage" element={<Checkout />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

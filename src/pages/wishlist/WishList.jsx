@@ -8,20 +8,14 @@ import "./WishList.css";
 const WishList = () => {
   const { productState } = useFlower();
   const navigate = useNavigate();
+  const encodedToken = localStorage.getItem("token");
+  console.log(encodedToken);
   return (
     <div>
-      {/* {productState?.wishList?.length === 0 ? (
-        <EmptyWishList />
-      ) : (
-        <div>
-          <h1> WishList {productState?.wishList?.length} </h1>
-        </div>
-      )} */}
-
       <div>
         {/* <button onClick={() => navigate("/checkoutPage")}>checkout</button> */}
         <h2 style={{ textAlign: "center" }}>
-          Wishlist: {productState?.wishList?.length}
+          Wishlist: {encodedToken ? productState?.wishList?.length : 0}
         </h2>
         {productState?.wishList?.length === 0 ? (
           <EmptyWishList />

@@ -15,6 +15,8 @@ const Checkout = () => {
     (addr) => addr.id === productState?.selectedAddressId
   );
 
+  console.log(productState?.selectedAddressId);
+
   return (
     <div className="checkout_container">
       {/* <div className="contain"> */}
@@ -59,14 +61,6 @@ const Checkout = () => {
                     {" "}
                     {addr.state}, {addr.country}
                   </p>
-                  {/* <p>
-                      {addr.firstName} {addr.lastName}
-                    </p>
-                    <p>Address: {addr.addressLine}</p>
-                    <p>City: {addr.city}</p>
-                    <p>State: {addr.state}</p>
-                    <p>ZipCode: {addr.zipCode}</p>
-                    <p>Country: {addr.country}</p> */}
                 </div>
               </label>
             </li>
@@ -74,7 +68,14 @@ const Checkout = () => {
         ) : (
           <p>No address available.</p>
         )}
+        <button
+          className="btn_add_address"
+          onClick={() => navigate("/acc-detail")}
+        >
+          add address
+        </button>
       </ul>
+
       {/* </div> */}
       {/* <button onClick={() => navigate("/addr-form")}>add address</button> */}
 
@@ -176,29 +177,33 @@ const Checkout = () => {
         >
           <h3 style={{ textAlign: "center" }}>Deliver To</h3>
           {/* ------------- */}
-          <div
-            style={{
-              // border: "1px solid green",
-              textAlign: "left",
-              // marginTop: "-1.5rem",
-              // width: "50%",
-              // textAlignLast: "left",
-              // paddingLeft: "2.5rem",
-              lineHeight: "0.5rem",
-            }}
-          >
-            <p>
-              {selectedAddr?.firstName} {selectedAddr?.lastName},
-            </p>{" "}
-            <p>{selectedAddr?.addressLine},</p>{" "}
-            <p>
-              {selectedAddr?.city}-{selectedAddr?.zipCode}
-            </p>
-            <p>
-              {" "}
-              {selectedAddr?.state}, {selectedAddr?.country}
-            </p>
-          </div>
+          {productState?.selectedAddressId?.length ? (
+            <div
+              style={{
+                // border: "1px solid green",
+                textAlign: "left",
+                // marginTop: "-1.5rem",
+                // width: "50%",
+                // textAlignLast: "left",
+                // paddingLeft: "2.5rem",
+                lineHeight: "0.5rem",
+              }}
+            >
+              <p>
+                {selectedAddr?.firstName} {selectedAddr?.lastName},
+              </p>{" "}
+              <p>{selectedAddr?.addressLine},</p>{" "}
+              <p>
+                {selectedAddr?.city}-{selectedAddr?.zipCode}
+              </p>
+              <p>
+                {" "}
+                {selectedAddr?.state}, {selectedAddr?.country}
+              </p>
+            </div>
+          ) : (
+            <p>select address </p>
+          )}
 
           {/* ------------- */}
         </div>

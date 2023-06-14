@@ -1,6 +1,7 @@
 .e_wishList {
   /* background-color: red; */
   text-align: center;
+  height: 89vh;
   /* border: 2px solid red; */
 }
 
@@ -28,4 +29,5 @@
     #f2b5d4 9px 11px
   );
   border: 3px double rgb(146, 140, 237);
+  cursor: pointer;
 }

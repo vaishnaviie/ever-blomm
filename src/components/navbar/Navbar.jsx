@@ -18,6 +18,7 @@ const Navbar = () => {
   const [searchText, setSearchText] = useState();
   const navigate = useNavigate();
   const { authState } = useAuth();
+  const encodedToken = localStorage.getItem("token");
 
   useEffect(() => {
     filterDispatch({ type: "SEARCH", payload: searchText });
@@ -51,7 +52,7 @@ const Navbar = () => {
             <div className="heart">
               <BsSuitHeart style={{ fontSize: "1.7rem" }} />
               <div className="heart_count">
-                <span>{productState?.wishList?.length}</span>
+                <span>{encodedToken ? productState?.wishList?.length : 0}</span>
               </div>
             </div>
           </NavLink>
@@ -60,7 +61,7 @@ const Navbar = () => {
             <div className="heart">
               <IoCartOutline style={{ fontSize: "1.7rem" }} />
               <div className="heart_count">
-                <span>{productState?.cart?.length}</span>
+                <span>{encodedToken ? productState?.cart?.length : 0}</span>
               </div>
             </div>
           </NavLink>

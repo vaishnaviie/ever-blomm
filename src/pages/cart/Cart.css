@@ -1,5 +1,7 @@
 .cart_container {
-  /* border: 2px solid blue; */
+  /* border: 2px solid red; */
+  min-height: 89vh;
+  max-height: auto;
 }
 
 .carts {
@@ -52,4 +54,5 @@
     #f2b5d4 9px 11px
   );
   border: 3px double rgb(146, 140, 237);
+  cursor: pointer;
 }

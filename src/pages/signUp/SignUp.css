@@ -54,6 +54,7 @@
     #f2b5d4 9px 11px
   );
   border: 2px solid purple;
+  cursor: pointer;
 }
 
 .already_account {
@@ -72,4 +73,5 @@
   border: 1px solid purple;
   background-color: rgb(217, 153, 217);
   color: white;
+  cursor: pointer;
 }

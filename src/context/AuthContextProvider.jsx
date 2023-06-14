@@ -45,7 +45,7 @@ export const AuthContextProvider = ({ children }) => {
   const userSignUp = async (signUpData) => {
     try {
       const { data } = await axios.post("api/auth/signup", signUpData);
-      //   console.log(data);
+      console.log(data?.createdUser);
       authDispatch({ type: "SET_LOGGEDIN", payload: true });
       authDispatch({ type: "SET_USER", payload: data?.createdUser });
       authDispatch({ type: "SET_TOKEN", payload: data?.encodedToken });

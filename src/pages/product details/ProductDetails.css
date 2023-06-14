@@ -78,6 +78,7 @@
     #f2b5d4 9px 11px
   );
   border: 0.5px solid pink;
+  cursor: pointer;
 }
 
 .pro_d_gray {

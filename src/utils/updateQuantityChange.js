@@ -12,9 +12,7 @@ export const updateQuantityChange = async (Dispatch, itemId, type) => {
         },
       }
     );
-    // if (status === 200) {
     Dispatch({ type: "SET_CART", payload: data?.cart });
-    // }
   } catch (error) {
     console.log(error);
   }

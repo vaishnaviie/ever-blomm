@@ -1,3 +1,5 @@
 .empty_cart {
   text-align: center;
+  /* border: 2px solid red; */
+  height: 89vh;
 }

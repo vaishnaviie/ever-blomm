@@ -4,8 +4,8 @@
   width: 100%;
   background-color: rgb(218, 189, 215);
   padding-top: 2.5vh;
-  position: sticky;
-  bottom: 0;
+  /* position: sticky; */
+  /* bottom: 0; */
 }
 
 .footer_sub_container {

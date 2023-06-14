@@ -29,7 +29,7 @@ export const products = [
     _id: uuid(),
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
-    name: "purple petaled flower bouquet",
+    name: "orange petaled flower bouquet",
     price: 200,
     delivery: "today",
     rating: {
@@ -48,8 +48,8 @@ export const products = [
     _id: uuid(),
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
-    name: "purple petaled flower bouquet",
-    price: 200,
+    name: "pinkish petaled flower bouquet",
+    price: 400,
     delivery: "today",
     rating: {
       value: 4,
@@ -67,7 +67,7 @@ export const products = [
     _id: uuid(),
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
-    name: "purple petaled flower bouquet",
+    name: "dark blue petaled flower bouquet",
     price: 895,
     delivery: "today",
     rating: {
@@ -86,8 +86,8 @@ export const products = [
     _id: uuid(),
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
-    name: "purple petaled flower bouquet",
-    price: 819,
+    name: "purple flowery",
+    price: 1023,
     delivery: "today",
     rating: {
       value: 3,
@@ -105,8 +105,8 @@ export const products = [
     _id: uuid(),
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
-    name: "purple petaled flower bouquet",
-    price: 200,
+    name: "rozy rozy bouquet",
+    price: 500,
     delivery: "today",
     rating: {
       value: 4,
@@ -124,8 +124,8 @@ export const products = [
     _id: uuid(),
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
-    name: "purple petaled flower bouquet",
-    price: 795,
+    name: "blue just for you",
+    price: 2630,
     delivery: "today",
     rating: {
       value: 4,
@@ -143,8 +143,8 @@ export const products = [
     _id: uuid(),
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
-    name: "purple petaled flower bouquet",
-    price: 956,
+    name: "lightened bouquet",
+    price: 2563,
     delivery: "today",
     rating: {
       value: 2,
@@ -162,8 +162,8 @@ export const products = [
     _id: uuid(),
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
-    name: "purple petaled flower bouquet",
-    price: 1056,
+    name: "whitely blue rozy",
+    price: 2763,
     delivery: "today",
     rating: {
       value: 4,
@@ -181,8 +181,8 @@ export const products = [
     _id: uuid(),
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
-    name: "purple petaled flower bouquet",
-    price: 652,
+    name: "whiteish flower bouquet",
+    price: 2896,
     delivery: "today",
     rating: {
       value: 1,
@@ -201,7 +201,7 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 489,
+    price: 2356,
     delivery: "today",
     rating: {
       value: 4,
@@ -219,8 +219,8 @@ export const products = [
     _id: uuid(),
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
-    name: "purple petaled flower bouquet",
-    price: 200,
+    name: "yellow petaled flower bouquet",
+    price: 2159,
     delivery: "today",
     rating: {
       value: 3,
@@ -239,7 +239,7 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 200,
+    price: 1102,
     delivery: "today",
     rating: {
       value: 3,
@@ -258,7 +258,7 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 465,
+    price: 1305,
     delivery: "today",
     rating: {
       value: 1,
@@ -277,7 +277,7 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 984,
+    price: 1496,
     delivery: "today",
     rating: {
       value: 3,
@@ -296,7 +296,7 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 746,
+    price: 1596,
     delivery: "today",
     rating: {
       value: 3,
@@ -315,7 +315,7 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 894,
+    price: 1693,
     delivery: "today",
     rating: {
       value: 2,
@@ -334,7 +334,7 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 726,
+    price: 1796,
     delivery: "today",
     rating: {
       value: 3,
@@ -353,7 +353,7 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 562,
+    price: 1562,
     delivery: "today",
     rating: {
       value: 3,
@@ -372,7 +372,7 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 543,
+    price: 1698,
     delivery: "today",
     rating: {
       value: 3,
@@ -391,7 +391,7 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 846,
+    price: 1789,
     delivery: "today",
     rating: {
       value: 3,
@@ -410,7 +410,7 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 916,
+    price: 3000,
     delivery: "today",
     rating: {
       value: 3,
@@ -429,7 +429,7 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 689,
+    price: 2263,
     delivery: "today",
     rating: {
       value: 3,
@@ -486,7 +486,7 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 692,
+    price: 1263,
     delivery: "today",
     rating: {
       value: 2,
@@ -524,7 +524,7 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 985,
+    price: 962,
     delivery: "today",
     rating: {
       value: 2,
@@ -562,7 +562,7 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 981,
+    price: 2563,
     delivery: "today",
     rating: {
       value: 2,
@@ -581,7 +581,7 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 834,
+    price: 2999,
     delivery: "today",
     rating: {
       value: 2,
@@ -619,7 +619,7 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 863,
+    price: 3000,
     delivery: "today",
     rating: {
       value: 4,
@@ -657,7 +657,7 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 785,
+    price: 2365,
     delivery: "today",
     rating: {
       value: 4,
@@ -737,7 +737,7 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 1236,
+    price: 2463,
     delivery: "today",
     rating: {
       value: 4,
@@ -757,7 +757,7 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 1236,
+    price: 2963,
     delivery: "today",
     rating: {
       value: 4,
@@ -797,13 +797,13 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 1236,
+    price: 3000,
     delivery: "today",
     rating: {
       value: 4,
       review: 5632,
     },
-    color: "colorful",
+    color: "colorfull",
     flowerType: "lili",
     arrangements: "basket",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQuKDXA3m8UikCKYijIwyFbTDyy1eI2MNGyw&usqp=CAU",
@@ -817,7 +817,7 @@ export const products = [
     description:
       "Bring the charming beauty of spring indoors with this stunning arrangement of 5 delicate pink lilies and 10 pink roses. Artfully designed in a sleek cylinder vase, this bouquet is accented with elegant white gypso fillers for a timeless touch. Perfect for any occasion, this enchanting gift is sure to leave a lasting impression.",
     name: "purple petaled flower bouquet",
-    price: 1236,
+    price: 2236,
     delivery: "today",
     rating: {
       value: 4,

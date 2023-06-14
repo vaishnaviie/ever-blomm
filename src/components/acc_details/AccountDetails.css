@@ -1,5 +1,7 @@
 .acc_container {
-  height: 89vh;
+  min-height: 89vh;
+  max-height: auto;
+  padding-bottom: 10vh;
   border: 2px solid purple;
   background-image: url("../../../public/assets/bg.jpeg");
   background-position: center;

@@ -26,7 +26,7 @@ const SignUp = () => {
   return (
     <div className="sign_up_container">
       <div className="sign_up_sub_container">
-        <h2>SignUp</h2>
+        <h2>Sign Up</h2>
         <form onSubmit={(e) => signUpHandler(e)}>
           <label htmlFor="firstName">
             {/* First Name */}

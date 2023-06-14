@@ -110,7 +110,7 @@ const Sidebar = () => {
           })}
         </div>
 
-        <h4>Sort by Price</h4>
+        <h3>Sort by Price</h3>
         <div>
           {sortByPriceArr.map(({ label, value }) => (
             <label key={value}>
