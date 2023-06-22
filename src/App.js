@@ -81,7 +81,7 @@ function App() {
         <Route path="/acc-detail" element={<AccountDetails />} />
         <Route path="/addr-form" element={<AddressForm />} />
         <Route path="/checkoutPage" element={<Checkout />} />
-        <Route path="/orderPlaced" element={<OrderPlaced />} />
+        <Route path="/order-placed" element={<OrderPlaced />} />
       </Routes>
       <Footer />
     </div>
