@@ -21,6 +21,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { useEffect } from "react";
 import { useFlower } from "./context/FlowerContextProvider";
 import Footer from "./components/footer/Footer";
+import OrderPlaced from "./pages/orderPlaced/OrderPlaced";
 
 // https://fkhadra.github.io/react-toastify/introduction
 // https://mui.com/material-ui/react-backdrop/
@@ -80,6 +81,7 @@ function App() {
         <Route path="/acc-detail" element={<AccountDetails />} />
         <Route path="/addr-form" element={<AddressForm />} />
         <Route path="/checkoutPage" element={<Checkout />} />
+        <Route path="/orderPlaced" element={<OrderPlaced />} />
       </Routes>
       <Footer />
     </div>

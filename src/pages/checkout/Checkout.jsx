@@ -207,7 +207,11 @@ const Checkout = () => {
 
           {/* ------------- */}
         </div>
-        <button style={{ textAlign: "center" }} className="btn_place_order">
+        <button
+          onClick={() => navigate("/orderPlaced")}
+          style={{ textAlign: "center" }}
+          className="btn_place_order"
+        >
           Place order
         </button>
       </div>

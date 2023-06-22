@@ -44,6 +44,7 @@ const CartContextProvider = ({ children }) => {
       toast("Item added to cart !");
     } catch (e) {
       console.log(e);
+      toast("Something went wrong !");
     }
   };
 
